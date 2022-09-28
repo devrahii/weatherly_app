@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:weatherly/screens/location_screen.dart';
 import 'screens/loading_screen.dart';
+import 'location_screen.dart';
 
 void main() => runApp(MyApp());
 
