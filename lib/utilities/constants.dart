@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+// TODO add const for Text style
 
 const kTempTextStyle = TextStyle(
   fontFamily: 'Spartan MB',
   fontSize: 50,
 );
+
 
 const kMessageTextStyle = TextStyle(
   fontFamily: 'Spartan MB',

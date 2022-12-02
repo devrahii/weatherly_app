@@ -9,6 +9,12 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 
+//TODO Move to screens Folder
+//TODO Add Time Forecast Temp
+//TODO Add Day Forecast Temp
+//TODO add ClipPath widget around image widget
+//TODO add multiple images to background according to temp
+//TODO allocate Fix position of Container Temp and image
 
 class HomePageWidget extends StatefulWidget {
   HomePageWidget({this.locationWeather});
@@ -127,18 +133,15 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                     ),
                     Padding(
                       padding:  const EdgeInsetsDirectional.fromSTEB(0, 0, 0, 5),
-                      child: InkWell(
-                        onTap: () async {},
-                        child:  Text(
-                          '$cityName',
-                          style: const TextStyle(fontSize: 30, fontFamily: 'Poppins',fontWeight: FontWeight.w600),
+                      child: Text(
+                        '$cityName',
+                        style: const TextStyle(fontSize: 30, fontFamily: 'Poppins',fontWeight: FontWeight.w600),
 
-                          textAlign: TextAlign.start,
-                          // style: FlutterFlowTheme.of(context).title1.override(
-                          //   fontFamily: 'Poppins',
-                          //   fontSize: 30,
-                          // ),
-                        ),
+                        textAlign: TextAlign.start,
+                        // style: FlutterFlowTheme.of(context).title1.override(
+                        //   fontFamily: 'Poppins',
+                        //   fontSize: 30,
+                        // ),
                       ),
                     ),
                     IconButton(

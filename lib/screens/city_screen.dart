@@ -6,6 +6,10 @@ class CityScreen extends StatefulWidget {
   _CityScreenState createState() => _CityScreenState();
 }
 
+// TODO add City Package for Search
+// TODO customize the page
+// TODO Check for some city data not passing
+
 class _CityScreenState extends State<CityScreen> {
   String cityName = 'null';
 
